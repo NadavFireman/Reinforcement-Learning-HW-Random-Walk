@@ -1,6 +1,6 @@
 # Reinforcement Learning - Random Walk Prediction
 
-**Home Assignment (M.Sc. Data Science, HIT). Estimating the state-value function of the classic Random Walk — a 7-state chain with known closed-form values, so every estimate is measured against exact ground truth. Five methods implemented from scratch (NumPy only): First-visit Monte Carlo, TD(0), linear approximation with one-hot and polynomial features, and a small PyTorch value network (bonus).**
+**Home Assignment (Grade 100, M.Sc. Data Science, HIT). Estimating the state-value function of the classic Random Walk — a 7-state chain with known closed-form values, so every estimate is measured against exact ground truth. Five methods implemented from scratch (NumPy only): First-visit Monte Carlo, TD(0), linear approximation with one-hot and polynomial features, and a small PyTorch value network (bonus).**
 
 ## The Five Methods (RMSE vs. ground truth, 1,000 episodes)
 - **First-visit Monte Carlo: 0.037** — the winner in this run; unbiased averaging pays off in a small environment.
